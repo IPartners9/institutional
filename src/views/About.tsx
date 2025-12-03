@@ -99,39 +99,10 @@ const About: React.FC = () => {
       {/* Leadership Team Section */}
       <div className="bg-navy py-24 mb-1 border-t border-gray-800">
         <div className="container mx-auto px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-            
-            {/* Left Column: Statement */}
-            <div className="flex items-center">
-               <h2 className="font-serif text-3xl md:text-5xl text-white font-bold leading-tight">
-                 {t('about_page.leadership.title')}
-               </h2>
-            </div>
-
-            {/* Right Column: Team Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-8">
-               <div>
-                  <h4 className="font-bold text-white text-lg font-serif">Gabriel Pincus</h4>
-                  <p className="text-gray-400 text-sm mt-1 uppercase tracking-wider">{t('about_page.leadership.roles.md')}</p>
-               </div>
-               <div>
-                  <h4 className="font-bold text-white text-lg font-serif">William Hodgson</h4>
-                  <p className="text-gray-400 text-sm mt-1 uppercase tracking-wider">{t('about_page.leadership.roles.md')}</p>
-               </div>
-               <div>
-                  <h4 className="font-bold text-white text-lg font-serif">Stephane Trubert</h4>
-                  <p className="text-gray-400 text-sm mt-1 uppercase tracking-wider">{t('about_page.leadership.roles.md')}</p>
-               </div>
-               <div>
-                   <h4 className="font-bold text-white text-lg font-serif">Adena Polozkova</h4>
-                   <p className="text-gray-400 text-sm mt-1 uppercase tracking-wider">{t('about_page.leadership.roles.pr')}</p>
-               </div>
-               <div>
-                  <h4 className="font-bold text-white text-lg font-serif">Giü Palmiasno</h4>
-                  <p className="text-gray-400 text-sm mt-1 uppercase tracking-wider">{t('about_page.leadership.roles.ae')}</p>
-               </div>
-            </div>
-
+          <div className="flex justify-center">
+            <h2 className="font-serif text-3xl md:text-5xl text-white font-bold leading-tight text-center">
+              {t('about_page.leadership.title')}
+            </h2>
           </div>
         </div>
       </div>
@@ -140,3 +111,4 @@ const About: React.FC = () => {
 };
 
 export default About;
+
