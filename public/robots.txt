@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /*/client-portal
 
-Sitemap: https://ipanemainstitutional.com/sitemap.xml
+Sitemap: https://www.ipanemainstitutional.com/sitemap.xml

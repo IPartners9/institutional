@@ -7,7 +7,7 @@ import { dirname, resolve } from 'node:path';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = resolve(__dirname, '..');
 
-const SITE_URL = 'https://ipanemainstitutional.com';
+const SITE_URL = 'https://www.ipanemainstitutional.com';
 const languages = ['en', 'pt', 'es'];
 
 // Static routes: path after the locale prefix. client-portal is intentionally excluded (noindex).
