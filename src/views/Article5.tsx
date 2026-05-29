@@ -17,21 +17,21 @@ const Article5: React.FC = () => {
         <div className="prose prose-lg text-charcoal font-sans leading-relaxed max-w-none">
           <h3 className="font-serif text-2xl text-navy font-bold mt-0 mb-4">What Are Notional Principal Contracts?</h3>
           <p className="mb-6">
-            Notional principal contracts represent a category of financial arrangements where two parties exchange payments at regular intervals based on a reference rate or index applied to a theoretical principal amount. Think of these as derivative agreements where neither party actually exchanges the underlying principal—instead, they simply exchange calculated payments based on that notional amount.
+            Notional principal contracts represent a category of financial arrangements where two parties exchange payments at regular intervals based on a reference rate or index applied to a theoretical principal amount. Think of these as derivative agreements where neither party actually exchanges the underlying principal, instead, they simply exchange calculated payments based on that notional amount.
           </p>
           <p className="mb-6">
             Common examples include interest rate swaps, currency swaps, interest rate caps and floors, and similar instruments. These contracts allow family offices to manage exposure to interest rate fluctuations, currency movements and other market variables without directly buying or selling the underlying assets.
           </p>
           <p className="mb-6">
-            Here's a straightforward example: A U.S. family office entity enters into an interest rate swap with a foreign counterpart. The U.S. entity agrees to pay fixed-rate dollar amounts, while the foreign counterpart pays floating-rate dollar amounts. Both payment streams are calculated based on a notional dollar amount specified in the agreement—but that principal amount never actually changes hands. This arrangement constitutes a notional principal contract.
+            Here's a straightforward example: A U.S. family office entity enters into an interest rate swap with a foreign counterpart. The U.S. entity agrees to pay fixed-rate dollar amounts, while the foreign counterpart pays floating-rate dollar amounts. Both payment streams are calculated based on a notional dollar amount specified in the agreement, but that principal amount never actually changes hands. This arrangement constitutes a notional principal contract.
           </p>
 
           <h3 className="font-serif text-2xl text-navy font-bold mt-10 mb-4">How Family Offices Use These Instruments</h3>
           <p className="mb-4">
-            Family offices frequently deploy hedging strategies to protect portfolios from substantial market or sector-specific risks. When managing international investments, many families establish these hedging arrangements through controlled foreign corporations (CFCs)—essentially foreign entities that the family controls.
+            Family offices frequently deploy hedging strategies to protect portfolios from substantial market or sector-specific risks. When managing international investments, many families establish these hedging arrangements through controlled foreign corporations (CFCs), essentially foreign entities that the family controls.
           </p>
           <p className="mb-4">
-            The payments flowing from these derivative contracts—whether regular periodic payments or one-time settlements—generally fall under specific U.S. tax rules governing how and when these amounts are taxed.
+            The payments flowing from these derivative contracts, whether regular periodic payments or one-time settlements, generally fall under specific U.S. tax rules governing how and when these amounts are taxed.
           </p>
 
           <h3 className="font-serif text-2xl text-navy font-bold mt-10 mb-4">Tax Treatment for Cross-Border Structures</h3>
@@ -46,7 +46,7 @@ const Article5: React.FC = () => {
 
           <h4 className="font-serif text-xl text-navy font-bold mt-8 mb-3">Subpart F Income Classification</h4>
           <p className="mb-4">
-            More significantly, cross-border hedging transactions involving CFCs with notional principal contracts can trigger taxation under Subpart F rules—specifically as "foreign personal holding company income."
+            More significantly, cross-border hedging transactions involving CFCs with notional principal contracts can trigger taxation under Subpart F rules, specifically as "foreign personal holding company income."
           </p>
           <p className="mb-4">
             Foreign personal holding company income encompasses most passive income categories: interest, dividends, rental income, annuities, royalties and gains from selling securities or other property generating such passive returns. The definition explicitly includes net income from notional principal contracts.
@@ -65,7 +65,7 @@ const Article5: React.FC = () => {
 
           <h3 className="font-serif text-2xl text-navy font-bold mt-10 mb-4">What This Means for Your Family Office</h3>
           <p className="mb-4">
-            If your family office maintains international investment structures—particularly if you've established foreign entities to house hedging strategies or derivative positions—understanding these tax implications becomes essential for several reasons:
+            If your family office maintains international investment structures, particularly if you've established foreign entities to house hedging strategies or derivative positions, understanding these tax implications becomes essential for several reasons:
           </p>
           <ul className="list-disc pl-6 mb-6 space-y-2">
             <li><strong>Immediate Tax Liability:</strong> Income from these contracts may be taxable to U.S. family members immediately, regardless of whether the foreign entity distributes any cash. This can create unexpected tax bills and cash flow challenges.</li>

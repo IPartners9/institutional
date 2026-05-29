@@ -1,9 +1,11 @@
 
 import React from 'react';
+import Seo from '@/components/Seo';
 
 const PrivacyPolicy: React.FC = () => {
   return (
     <div className="animate-fade-in">
+      <Seo metaKey="privacy" path="/privacy-policy" />
       <div className="bg-navy py-12">
         <div className="container mx-auto px-6">
           <h1 className="font-serif text-3xl md:text-4xl text-white font-bold mb-4">Privacy Policy</h1>

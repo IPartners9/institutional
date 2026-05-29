@@ -28,7 +28,7 @@ const Article3: React.FC = () => {
             Single-family vehicles accommodate personalized governance frameworks. The structure can reflect family hierarchies or management philosophies, incorporating family councils, individual board members or professional executives. This alignment ensures fund operations correspond closely with family principles and internal authority structures.
           </p>
           <p className="mb-4">
-            These vehicles additionally facilitate unified supervision. Through a single-family vehicle, families can aggregate management of diverse asset categories and legal structures—trusts, holding entities or separate accounts—into one cohesive platform. This consolidation enhances visibility, reduces administrative complexity and strengthens overall command.
+            These vehicles additionally facilitate unified supervision. Through a single-family vehicle, families can aggregate management of diverse asset categories and legal structures, trusts, holding entities or separate accounts, into one cohesive platform. This consolidation enhances visibility, reduces administrative complexity and strengthens overall command.
           </p>
           <p className="mb-4">
             Intergenerational planning and succession architecture represent another essential advantage. A single-family vehicle establishes a legal and operational foundation consistent with multigenerational family goals, supporting structured wealth and authority transitions across time. It can embed specific provisions for inheritance protocols, governance evolution and other cross-generational mechanisms.
@@ -63,7 +63,7 @@ const Article3: React.FC = () => {
 
           <h4 className="font-serif text-xl text-navy font-bold mt-8 mb-3">Governance Architecture</h4>
           <p className="mb-4">
-            Governance should align with family preferences. A designated fund director—such as a family member, advisor or board—can be designated. Governance provisions should establish decision authority protocols, investment entitlements, redemption procedures and dispute resolution mechanisms.
+            Governance should align with family preferences. A designated fund director, such as a family member, advisor or board, can be designated. Governance provisions should establish decision authority protocols, investment entitlements, redemption procedures and dispute resolution mechanisms.
           </p>
           <p className="mb-4">
             When suitable, families may additionally create an advisory panel or designate independent directors to introduce external judgment and preserve fiduciary standards.

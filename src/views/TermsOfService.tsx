@@ -1,8 +1,10 @@
 import React from 'react';
+import Seo from '@/components/Seo';
 
 const TermsOfService: React.FC = () => {
   return (
     <div className="animate-fade-in">
+      <Seo metaKey="terms" path="/terms-of-service" />
       <div className="bg-navy py-12">
         <div className="container mx-auto px-6">
           <h1 className="font-serif text-3xl md:text-4xl text-white font-bold mb-4">Terms of Service</h1>

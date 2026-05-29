@@ -1,5 +1,6 @@
 
 import React from 'react';
+import Seo from '@/components/Seo';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 const About: React.FC = () => {
@@ -9,6 +10,7 @@ const About: React.FC = () => {
 
   return (
     <div className="animate-fade-in">
+      <Seo metaKey="about" path="/about" />
       {/* Header */}
       <div className="bg-navy py-20">
         <div className="container mx-auto px-6">

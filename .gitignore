@@ -4,6 +4,10 @@ node_modules
 # Build output
 dist
 
+# Generated at build time (prebuild)
+public/sitemap.xml
+.vite-react-ssg-temp
+
 # Local env files
 .env
 .env.local

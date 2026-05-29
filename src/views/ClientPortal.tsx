@@ -1,6 +1,7 @@
 
 import React, { useState } from 'react';
 import Button from '@/components/Button';
+import Seo from '@/components/Seo';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 const ClientPortal: React.FC = () => {
@@ -32,6 +33,7 @@ const ClientPortal: React.FC = () => {
 
   return (
     <div className="animate-fade-in min-h-[70vh] flex flex-col">
+      <Seo metaKey="clientPortal" path="/client-portal" noindex />
        <div className="bg-navy py-12 text-center">
         <div className="container mx-auto px-6">
             <h1 className="font-serif text-3xl md:text-4xl text-white font-bold">{t('portal_page.hero.title')}</h1>
