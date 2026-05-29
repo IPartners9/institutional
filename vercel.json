@@ -1,5 +1,43 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.ipanemainstitutional.com" }],
+      "destination": "https://ipanemainstitutional.com/:path*",
+      "permanent": true
+    },
+    { "source": "/", "destination": "/en", "permanent": false },
+    { "source": "/about", "destination": "/en/about", "permanent": true },
+    { "source": "/services", "destination": "/en/services", "permanent": true },
+    { "source": "/insights", "destination": "/en/insights", "permanent": true },
+    { "source": "/insights/:slug", "destination": "/en/insights/:slug", "permanent": true },
+    { "source": "/schedule-consultation", "destination": "/en/schedule-consultation", "permanent": true },
+    { "source": "/client-portal", "destination": "/en/client-portal", "permanent": true },
+    { "source": "/privacy-policy", "destination": "/en/privacy-policy", "permanent": true },
+    { "source": "/terms-of-service", "destination": "/en/terms-of-service", "permanent": true },
+    { "source": "/contact", "destination": "/en/schedule-consultation", "permanent": true },
+    { "source": "/:lang(en|pt|es)/contact", "destination": "/:lang/schedule-consultation", "permanent": true }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Strict-Transport-Security", "value": "max-age=31536000; includeSubDomains; preload" },
+        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()" },
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data:; font-src 'self' https://fonts.gstatic.com; connect-src 'self'; frame-ancestors 'self'; base-uri 'self'; form-action 'self'; object-src 'none'"
+        }
+      ]
+    },
+    {
+      "source": "/:lang(en|pt|es)/client-portal",
+      "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }]
+    }
   ]
 }

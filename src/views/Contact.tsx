@@ -1,6 +1,7 @@
 
 import React, { useState } from 'react';
 import Button from '@/components/Button';
+import Seo from '@/components/Seo';
 import { generateStrategyInsight } from '@/services/geminiService';
 import { useLanguage } from '@/contexts/LanguageContext';
 
@@ -42,6 +43,7 @@ const Contact: React.FC = () => {
 
   return (
     <div className="animate-fade-in">
+      <Seo metaKey="contact" path="/schedule-consultation" />
       <div className="bg-navy py-20">
         <div className="container mx-auto px-6 text-center">
           <h1 className="font-serif text-4xl md:text-5xl text-white font-bold mb-4">{t('contact_page.hero.title')}</h1>

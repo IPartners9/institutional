@@ -21,7 +21,7 @@ const Article1: React.FC = () => {
 
           <h3 className="font-serif text-2xl text-navy font-bold mt-10 mb-4">The Opening Challenge: Investor Onboarding</h3>
           <p className="mb-4">
-            The subscription workflow represents the first substantial obstacle in private fund investing. Most investors confront extensive paperwork requirements, typically spanning numerous pages and demanding comprehensive personal and financial information. Fund administrators require extensive documentation—from investor qualification verification to detailed tax forms—establishing a process that commonly extends across weeks or months.
+            The subscription workflow represents the first substantial obstacle in private fund investing. Most investors confront extensive paperwork requirements, typically spanning numerous pages and demanding comprehensive personal and financial information. Fund administrators require extensive documentation, from investor qualification verification to detailed tax forms, establishing a process that commonly extends across weeks or months.
           </p>
           <p className="mb-4">
             Seasoned practitioners frequently discover that missing signatures or incomplete sections can disrupt timelines, potentially affecting investment timing. This administrative complexity becomes especially acute when addressing offshore structures or multi-jurisdictional mandates, converting what should constitute a straightforward investment decision into a significant operational endeavor.
@@ -106,7 +106,7 @@ const Article1: React.FC = () => {
 
           <h3 className="font-serif text-2xl text-navy font-bold mt-10 mb-4">Lock-Up Restrictions</h3>
           <p className="mb-4">
-            Private funds commonly implement lock-up restrictions—predetermined timeframes during which invested capital remains inaccessible. These restrictions fundamentally affect investment flexibility and portfolio management capabilities.
+            Private funds commonly implement lock-up restrictions, predetermined timeframes during which invested capital remains inaccessible. These restrictions fundamentally affect investment flexibility and portfolio management capabilities.
           </p>
 
           <h4 className="font-serif text-xl text-navy font-bold mt-8 mb-3">Key Lock-Up Considerations</h4>

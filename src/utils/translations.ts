@@ -17,12 +17,13 @@ export const translations = {
       disclaimer: 'Nothing on this website should be taken as legal or tax advice but is for educational and consultative purposes only. All structures should be reviewed by independent legal counsel in relevant jurisdictions.',
       disclaimer2: 'Ipanema Partners does not engage in any regulated securities or banking activities.',
       privacy: 'Privacy Policy',
+      terms: 'Terms of Service',
       rights: 'All Rights Reserved.'
     },
     hero: {
       eyebrow: 'The Architecture of Global Mobility.',
       title: 'The International Layer of Your Family Office',
-      subtitle: 'We operate in the gap—coordinating your cross-border infrastructure while your existing team focuses on strategy. Your deal desk, compliance coordinator, and execution partner across jurisdictions.',
+      subtitle: 'We operate in the gap, coordinating your cross-border infrastructure while your existing team focuses on strategy. Your deal desk, compliance coordinator, and execution partner across jurisdictions.',
       cta: {
         book: 'Book Strategy Audit',
         learn: 'Learn More'
@@ -31,7 +32,7 @@ export const translations = {
     who: {
       title: 'Built for Established Family Offices',
       p1: 'Ipanema Institutional serves multi-generational family offices with complex cross-border holdings. Our clients typically maintain operations across 3+ jurisdictions, hold diversified international assets, and require ongoing coordination rather than one-time structuring.',
-      p2: 'We work with families who have outgrown single-jurisdiction advisory and need a dedicated partner for the international layer—the coordination, compliance, and execution that falls between domestic advisors and offshore administrators.'
+      p2: 'We work with families who have outgrown single-jurisdiction advisory and need a dedicated partner for the international layer, the coordination, compliance, and execution that falls between domestic advisors and offshore administrators.'
     },
     infra: {
       title: 'Infrastructure & Solutions',
@@ -41,12 +42,12 @@ export const translations = {
       foundation: 'FOUNDATION',
       structure: {
         title: 'Structure Translation',
-        desc: 'Entities recognized consistently across jurisdictions—preventing costly reclassifications and regulatory conflicts. We ensure your holding structures, trusts, and operational vehicles maintain their intended treatment whether viewed from the US, EU, Middle East, or offshore centers. This includes ongoing monitoring as treaty interpretations and substance requirements evolve.'
+        desc: 'Entities recognized consistently across jurisdictions, preventing costly reclassifications and regulatory conflicts. We ensure your holding structures, trusts, and operational vehicles maintain their intended treatment whether viewed from the US, EU, Middle East, or offshore centers. This includes ongoing monitoring as treaty interpretations and substance requirements evolve.'
       },
       orchestration: 'ORCHESTRATION',
       advisor: {
         title: 'Advisor Coordination',
-        desc: 'Managing foreign tax advisors, lawyers, and service providers to ensure unified execution. We serve as the central coordination point between your US counsel, offshore administrators, European tax advisors, and local compliance teams—translating requirements, managing timelines, and ensuring nothing falls through jurisdictional gaps.'
+        desc: 'Managing foreign tax advisors, lawyers, and service providers to ensure unified execution. We serve as the central coordination point between your US counsel, offshore administrators, European tax advisors, and local compliance teams, translating requirements, managing timelines, and ensuring nothing falls through jurisdictional gaps.'
       },
       protection: 'PROTECTION',
       compliance: {
@@ -56,18 +57,18 @@ export const translations = {
       intelligence: 'INTELLIGENCE',
       market: {
         title: 'Market Intelligence',
-        desc: 'Treaty optimization opportunities, regulatory changes affecting your structure, and emerging jurisdictional advantages. We monitor developments across your footprint—from OECD initiatives and EU directives to individual country policy shifts—translating complex regulatory changes into actionable structural recommendations.'
+        desc: 'Treaty optimization opportunities, regulatory changes affecting your structure, and emerging jurisdictional advantages. We monitor developments across your footprint, from OECD initiatives and EU directives to individual country policy shifts, translating complex regulatory changes into actionable structural recommendations.'
       }
     },
     strat: {
       eyebrow: 'BEYOND EFFICIENCY',
       title: 'Strategic Access',
-      desc: 'Coordination is table stakes. Our family offices gain something more valuable: proprietary deal flow in M&A, international real estate, and private credit from our global network—often before it reaches the market. Pre-validated counterparties. Access to high-barrier segments that require existing infrastructure to participate.'
+      desc: 'Coordination is table stakes. Our family offices gain something more valuable: proprietary deal flow in M&A, international real estate, and private credit from our global network, often before it reaches the market. Pre-validated counterparties. Access to high-barrier segments that require existing infrastructure to participate.'
     },
     about: {
       home: {
         title: 'About Ipanema Institutional',
-        p1: 'Ipanema Institutional was founded on the principle that sophisticated family offices require more than advice—they require a robust operating system. We are a specialized division of Ipanema Partners, dedicated exclusively to providing the cross-border infrastructure and coordination that multi-jurisdictional families need to operate efficiently.',
+        p1: 'Ipanema Institutional was founded on the principle that sophisticated family offices require more than advice, they require a robust operating system. We are a specialized division of Ipanema Partners, dedicated exclusively to providing the cross-border infrastructure and coordination that multi-jurisdictional families need to operate efficiently.',
         p2: 'Our team consists of veteran experts in international law, multi-jurisdictional tax, and family office operations. We don\'t just set up structures; we engineer comprehensive legal and financial ecosystems that withstand regulatory scrutiny and facilitate growth. With deep expertise spanning the Americas, Europe, the Middle East, and offshore financial centers, we serve as the architects of your global operational footprint.'
       },
       metric: {
@@ -95,7 +96,7 @@ export const translations = {
         {
           label: 'FOUNDATION',
           title: 'Structure Translation',
-          desc1: 'Entities must be recognized consistently across jurisdictions—preventing costly reclassifications and regulatory conflicts. We ensure your holding structures, trusts, and operational vehicles maintain their intended treatment whether viewed from the US, EU, Middle East, or offshore centers.',
+          desc1: 'Entities must be recognized consistently across jurisdictions, preventing costly reclassifications and regulatory conflicts. We ensure your holding structures, trusts, and operational vehicles maintain their intended treatment whether viewed from the US, EU, Middle East, or offshore centers.',
           desc2: 'This includes ongoing monitoring as treaty interpretations and substance requirements evolve. When OECD guidance shifts or individual countries reinterpret entity classification, we proactively update your structures before problems arise.',
           includes_title: 'Services Include:',
           items: [
@@ -110,7 +111,7 @@ export const translations = {
           label: 'ORCHESTRATION',
           title: 'Advisor Coordination',
           desc1: 'Your US tax counsel, offshore administrators, European legal teams, and local compliance providers each understand their jurisdiction. We ensure they understand each other. By serving as the central coordination point, we translate requirements, manage timelines, and ensure nothing falls through jurisdictional gaps.',
-          desc2: 'We don\'t replace your trusted advisors—we integrate with them. Your relationships remain yours. We handle the coordination complexity that slows execution and creates compliance risk when multiple advisors operate in silos.',
+          desc2: 'We don\'t replace your trusted advisors, we integrate with them. Your relationships remain yours. We handle the coordination complexity that slows execution and creates compliance risk when multiple advisors operate in silos.',
           includes_title: 'Services Include:',
           items: [
             'Cross-border advisor team coordination',
@@ -123,7 +124,7 @@ export const translations = {
         {
           label: 'PROTECTION',
           title: 'Ongoing Compliance Coordination',
-          desc1: 'Multi-jurisdictional compliance isn\'t a one-time project—it\'s an ongoing operational requirement. We maintain compliance calendars across all your jurisdictions, coordinate with local filing agents, and ensure economic substance requirements are continuously met.',
+          desc1: 'Multi-jurisdictional compliance isn\'t a one-time project, it\'s an ongoing operational requirement. We maintain compliance calendars across all your jurisdictions, coordinate with local filing agents, and ensure economic substance requirements are continuously met.',
           desc2: 'When new transactions arise, we review them for structural compatibility before execution. When regulations change, we proactively update your structures. Compliance becomes systematic rather than reactive.',
           includes_title: 'Services Include:',
           items: [
@@ -137,8 +138,8 @@ export const translations = {
         {
           label: 'INTELLIGENCE',
           title: 'Market Intelligence & Strategic Access',
-          desc1: 'Beyond operational coordination, we provide strategic intelligence on treaty optimization opportunities, regulatory changes affecting your structure, and emerging jurisdictional advantages. We monitor developments across your footprint—from OECD initiatives to individual country policy shifts.',
-          desc2: 'Our established network also provides access to proprietary deal flow in M&A, international real estate, and private credit—often before opportunities reach the broader market. Pre-validated counterparties in high-barrier segments.',
+          desc1: 'Beyond operational coordination, we provide strategic intelligence on treaty optimization opportunities, regulatory changes affecting your structure, and emerging jurisdictional advantages. We monitor developments across your footprint, from OECD initiatives to individual country policy shifts.',
+          desc2: 'Our established network also provides access to proprietary deal flow in M&A, international real estate, and private credit, often before opportunities reach the broader market. Pre-validated counterparties in high-barrier segments.',
           includes_title: 'Services Include:',
           items: [
             'Treaty and regulatory change monitoring',
@@ -158,8 +159,8 @@ export const translations = {
       mission: {
         title: 'Our Mission',
         subtitle: 'The international coordination layer for multi-generational families.',
-        p1: 'Ipanema Institutional was founded on the principle that sophisticated family offices require more than advice—they require a robust operating system. We serve as the international coordination layer between your domestic advisors and offshore administrators, ensuring unified execution across all jurisdictions.',
-        p2: 'We don\'t replace your trusted counsel. We integrate with them—coordinating tax advisors, lawyers, and service providers across borders to ensure nothing falls through jurisdictional gaps. By bridging legal structuring, compliance management, and cross-border execution, we provide the operational certainty that multi-jurisdictional families require.'
+        p1: 'Ipanema Institutional was founded on the principle that sophisticated family offices require more than advice, they require a robust operating system. We serve as the international coordination layer between your domestic advisors and offshore administrators, ensuring unified execution across all jurisdictions.',
+        p2: 'We don\'t replace your trusted counsel. We integrate with them, coordinating tax advisors, lawyers, and service providers across borders to ensure nothing falls through jurisdictional gaps. By bridging legal structuring, compliance management, and cross-border execution, we provide the operational certainty that multi-jurisdictional families require.'
       },
       values: {
         title: 'Our Values',
@@ -168,17 +169,17 @@ export const translations = {
           { title: 'Coordination, Not Replacement', desc: 'We integrate with your existing advisory team rather than compete with them. Your domestic counsel remains your strategic partner; we handle cross-border execution.' },
           { title: 'Institutional Discretion', desc: 'Multi-generational families require absolute confidentiality. We operate with the discretion expected of institutional fiduciaries, never as transactional advisors.' },
           { title: 'Proactive Compliance', desc: 'We don\'t wait for problems. Our systems monitor regulatory changes across your jurisdictions, updating structures before issues arise.' },
-          { title: 'Generational Perspective', desc: 'Short-term optimization destroys long-term wealth. We structure for decades, not quarters—ensuring your infrastructure serves multiple generations.' }
+          { title: 'Generational Perspective', desc: 'Short-term optimization destroys long-term wealth. We structure for decades, not quarters, ensuring your infrastructure serves multiple generations.' }
         ]
       },
       diff: {
         title: 'What Sets Us Apart',
         subtitle: 'Driving growth through trusted solutions, expert guidance and personalised support.',
         items: [
-          { title: 'Multi-Jurisdictional Coordination', desc: 'In-depth knowledge of how structures interact across borders. We don\'t just understand individual jurisdictions—we understand the gaps between them where compliance failures occur.' },
+          { title: 'Multi-Jurisdictional Coordination', desc: 'In-depth knowledge of how structures interact across borders. We don\'t just understand individual jurisdictions, we understand the gaps between them where compliance failures occur.' },
           { title: 'Advisor Integration', desc: 'Seamless collaboration with your US tax counsel, offshore administrators, and local legal teams. We speak their language and coordinate execution without replacing relationships.' },
           { title: 'Institutional Infrastructure', desc: 'The operational systems family offices need: consolidated reporting, compliance calendars, ongoing structure monitoring, and deal coordination across jurisdictions.' },
-          { title: 'Strategic Deal Access', desc: 'Proprietary deal flow in M&A, international real estate, and private credit from our network—pre-validated opportunities in high-barrier segments.' },
+          { title: 'Strategic Deal Access', desc: 'Proprietary deal flow in M&A, international real estate, and private credit from our network, pre-validated opportunities in high-barrier segments.' },
           { title: 'Absolute Discretion', desc: 'In a hyper-connected world, privacy is the ultimate luxury. We design structures that protect your identity and your data by default.' },
           { title: 'Compliance Architecture', desc: 'Clear solutions that meet industry standards across all jurisdictions. We build structures that withstand scrutiny today and adapt as regulations evolve.' }
         ]
@@ -317,6 +318,7 @@ export const translations = {
       disclaimer: 'Nada en este sitio web debe tomarse como asesoramiento legal o fiscal, sino que es solo para fines educativos y consultivos. Todas las estructuras deben ser revisadas por asesores legales independientes en las jurisdicciones pertinentes.',
       disclaimer2: 'Ipanema Partners no participa en actividades bancarias o de valores regulados.',
       privacy: 'Política de Privacidad',
+      terms: 'Términos del Servicio',
       rights: 'Todos los derechos reservados.'
     },
     hero: {
@@ -616,12 +618,13 @@ export const translations = {
       disclaimer: 'Nada neste site deve ser interpretado como aconselhamento jurídico ou fiscal, mas serve apenas para fins educacionais e consultivos. Todas as estruturas devem ser revisadas por consultores jurídicos independentes nas jurisdições relevantes.',
       disclaimer2: 'A Ipanema Partners não se envolve em atividades bancárias ou de valores mobiliários regulamentados.',
       privacy: 'Política de Privacidade',
+      terms: 'Termos de Serviço',
       rights: 'Todos os Direitos Reservados.'
     },
     hero: {
       eyebrow: 'A Arquitetura da Mobilidade Global.',
       title: 'A Camada Internacional do Seu Family Office',
-      subtitle: 'Operamos na lacuna—coordenando sua infraestrutura transfronteiriça enquanto sua equipe existente foca na estratégia. Sua mesa de operações, coordenador de compliance e parceiro de execução em todas as jurisdições.',
+      subtitle: 'Operamos na lacuna, coordenando sua infraestrutura transfronteiriça enquanto sua equipe existente foca na estratégia. Sua mesa de operações, coordenador de compliance e parceiro de execução em todas as jurisdições.',
       cta: {
         book: 'Agendar Auditoria',
         learn: 'Saiba Mais'
@@ -630,7 +633,7 @@ export const translations = {
     who: {
       title: 'Construído para Family Offices Estabelecidos',
       p1: 'A Ipanema Institutional atende family offices multigeracionais com participações transfronteiriças complexas. Nossos clientes geralmente mantêm operações em mais de 3 jurisdições, possuem ativos internacionais diversificados e exigem coordenação contínua em vez de estruturação única.',
-      p2: 'Trabalhamos com famílias que superaram a consultoria de jurisdição única e precisam de um parceiro dedicado para a camada internacional—a coordenação, compliance e execução que ficam entre os consultores domésticos e os administradores offshore.'
+      p2: 'Trabalhamos com famílias que superaram a consultoria de jurisdição única e precisam de um parceiro dedicado para a camada internacional, a coordenação, compliance e execução que ficam entre os consultores domésticos e os administradores offshore.'
     },
     infra: {
       title: 'Infraestrutura e Soluções',
@@ -640,12 +643,12 @@ export const translations = {
       foundation: 'FUNDAÇÃO',
       structure: {
         title: 'Tradução de Estrutura',
-        desc: 'Entidades reconhecidas consistentemente em todas as jurisdições—evitando reclassificações dispendiosas e conflitos regulatórios. Garantimos que suas estruturas de holding, trusts e veículos operacionais mantenham seu tratamento pretendido, seja visto dos EUA, UE, Oriente Médio ou centros offshore. Isso inclui monitoramento contínuo à medida que as interpretações dos tratados e os requisitos de substância evoluem.'
+        desc: 'Entidades reconhecidas consistentemente em todas as jurisdições, evitando reclassificações dispendiosas e conflitos regulatórios. Garantimos que suas estruturas de holding, trusts e veículos operacionais mantenham seu tratamento pretendido, seja visto dos EUA, UE, Oriente Médio ou centros offshore. Isso inclui monitoramento contínuo à medida que as interpretações dos tratados e os requisitos de substância evoluem.'
       },
       orchestration: 'ORQUESTRAÇÃO',
       advisor: {
         title: 'Coordenação de Consultores',
-        desc: 'Gerenciamento de consultores fiscais, advogados e prestadores de serviços estrangeiros para garantir execução unificada. Servimos como o ponto central de coordenação entre seu conselho nos EUA, administradores offshore, consultores fiscais europeus e equipes de compliance locais—traduzindo requisitos, gerenciando cronogramas e garantindo que nada caia nas lacunas jurisdicionais.'
+        desc: 'Gerenciamento de consultores fiscais, advogados e prestadores de serviços estrangeiros para garantir execução unificada. Servimos como o ponto central de coordenação entre seu conselho nos EUA, administradores offshore, consultores fiscais europeus e equipes de compliance locais, traduzindo requisitos, gerenciando cronogramas e garantindo que nada caia nas lacunas jurisdicionais.'
       },
       protection: 'PROTEÇÃO',
       compliance: {
@@ -655,18 +658,18 @@ export const translations = {
       intelligence: 'INTELIGÊNCIA',
       market: {
         title: 'Inteligência de Mercado',
-        desc: 'Oportunidades de otimização de tratados, mudanças regulatórias afetando sua estrutura e vantagens jurisdicionais emergentes. Monitoramos desenvolvimentos em toda a sua pegada—de iniciativas da OCDE e diretivas da UE a mudanças de política de países individuais—traduzindo mudanças regulatórias complexas em recomendações estruturais acionáveis.'
+        desc: 'Oportunidades de otimização de tratados, mudanças regulatórias afetando sua estrutura e vantagens jurisdicionais emergentes. Monitoramos desenvolvimentos em toda a sua pegada, de iniciativas da OCDE e diretivas da UE a mudanças de política de países individuais, traduzindo mudanças regulatórias complexas em recomendações estruturais acionáveis.'
       }
     },
     strat: {
       eyebrow: 'ALÉM DA EFICIÊNCIA',
       title: 'Acesso Estratégico',
-      desc: 'Coordenação é o básico. Nossos family offices ganham algo mais valioso: fluxo de negócios proprietário em fusões e aquisições, imobiliário internacional e crédito privado de nossa rede global—muitas vezes antes de chegar ao mercado. Contrapartes pré-validadas. Acesso a segmentos de alta barreira que exigem infraestrutura existente para participar.'
+      desc: 'Coordenação é o básico. Nossos family offices ganham algo mais valioso: fluxo de negócios proprietário em fusões e aquisições, imobiliário internacional e crédito privado de nossa rede global, muitas vezes antes de chegar ao mercado. Contrapartes pré-validadas. Acesso a segmentos de alta barreira que exigem infraestrutura existente para participar.'
     },
     about: {
       home: {
         title: 'Sobre a Ipanema Institutional',
-        p1: 'A Ipanema Institutional foi fundada no princípio de que family offices sofisticados exigem mais do que conselhos—eles exigem um sistema operacional robusto. Somos uma divisão especializada da Ipanema Partners, dedicada exclusivamente a fornecer a infraestrutura transfronteiriça e coordenação que famílias multijurisdicionais precisam para operar com eficiência.',
+        p1: 'A Ipanema Institutional foi fundada no princípio de que family offices sofisticados exigem mais do que conselhos, eles exigem um sistema operacional robusto. Somos uma divisão especializada da Ipanema Partners, dedicada exclusivamente a fornecer a infraestrutura transfronteiriça e coordenação que famílias multijurisdicionais precisam para operar com eficiência.',
         p2: 'Nossa equipe consiste em especialistas veteranos em direito internacional, fiscalidade multijurisdicional e operações de family office. Não apenas criamos estruturas; engenheiramos ecossistemas legais e financeiros abrangentes que resistem ao escrutínio regulatório e facilitam o crescimento. Com profunda experiência abrangendo as Américas, Europa, Oriente Médio e centros financeiros offshore, servimos como os arquitetos de sua pegada operacional global.'
       },
       metric: {
@@ -693,7 +696,7 @@ export const translations = {
         {
           label: 'FUNDAÇÃO',
           title: 'Tradução de Estrutura',
-          desc1: 'As entidades devem ser reconhecidas consistentemente em todas as jurisdições—evitando reclassificações dispendiosas e conflitos regulatórios. Garantimos que suas estruturas de holding, trusts e veículos operacionais mantenham seu tratamento pretendido, seja visto dos EUA, UE, Oriente Médio ou centros offshore.',
+          desc1: 'As entidades devem ser reconhecidas consistentemente em todas as jurisdições, evitando reclassificações dispendiosas e conflitos regulatórios. Garantimos que suas estruturas de holding, trusts e veículos operacionais mantenham seu tratamento pretendido, seja visto dos EUA, UE, Oriente Médio ou centros offshore.',
           desc2: 'Isso inclui monitoramento contínuo à medida que as interpretações dos tratados e os requisitos de substância evoluem. Quando a orientação da OCDE muda ou países individuais reinterpretam a classificação da entidade, atualizamos proativamente suas estruturas antes que surjam problemas.',
           includes_title: 'Serviços Incluem:',
           items: [
@@ -708,7 +711,7 @@ export const translations = {
           label: 'ORQUESTRAÇÃO',
           title: 'Coordenação de Consultores',
           desc1: 'Seu consultor fiscal nos EUA, administradores offshore, equipes jurídicas europeias e provedores de compliance locais entendem cada um sua jurisdição. Garantimos que eles se entendam. Ao servir como ponto central de coordenação, traduzimos requisitos, gerenciamos cronogramas e garantimos que nada caia nas lacunas jurisdicionais.',
-          desc2: 'Não substituímos seus consultores de confiança—nós nos integramos a eles. Seus relacionamentos permanecem seus. Lidamos com a complexidade de coordenação que retarda a execução e cria riscos de compliance quando vários consultores operam em silos.',
+          desc2: 'Não substituímos seus consultores de confiança, nós nos integramos a eles. Seus relacionamentos permanecem seus. Lidamos com a complexidade de coordenação que retarda a execução e cria riscos de compliance quando vários consultores operam em silos.',
           includes_title: 'Serviços Incluem:',
           items: [
             'Coordenação de equipe de consultores transfronteiriços',
@@ -721,7 +724,7 @@ export const translations = {
         {
           label: 'PROTEÇÃO',
           title: 'Coordenação de Compliance Contínuo',
-          desc1: 'O compliance multijurisdicional não é um projeto único—é um requisito operacional contínuo. Mantemos calendários de compliance em todas as suas jurisdições, coordenamos com agentes de registro locais e garantimos que os requisitos de substância econômica sejam atendidos continuamente.',
+          desc1: 'O compliance multijurisdicional não é um projeto único, é um requisito operacional contínuo. Mantemos calendários de compliance em todas as suas jurisdições, coordenamos com agentes de registro locais e garantimos que os requisitos de substância econômica sejam atendidos continuamente.',
           desc2: 'Quando surgem novas transações, nós as revisamos quanto à compatibilidade estrutural antes da execução. Quando as regulamentações mudam, atualizamos proativamente suas estruturas. O compliance torna-se sistemático em vez de reativo.',
           includes_title: 'Serviços Incluem:',
           items: [
@@ -735,8 +738,8 @@ export const translations = {
         {
           label: 'INTELIGÊNCIA',
           title: 'Inteligência de Mercado e Acesso Estratégico',
-          desc1: 'Além da coordenação operacional, fornecemos inteligência estratégica sobre oportunidades de otimização de tratados, mudanças regulatórias afetando sua estrutura e vantagens jurisdicionais emergentes. Monitoramos desenvolvimentos em toda a sua pegada—de iniciativas da OCDE a mudanças de política de países individuais.',
-          desc2: 'Nossa rede estabelecida também fornece acesso a fluxo de negócios proprietário em fusões e aquisições, imobiliário internacional e crédito privado—muitas vezes antes de as oportunidades chegarem ao mercado mais amplo. Contrapartes pré-validadas em segmentos de alta barreira.',
+          desc1: 'Além da coordenação operacional, fornecemos inteligência estratégica sobre oportunidades de otimização de tratados, mudanças regulatórias afetando sua estrutura e vantagens jurisdicionais emergentes. Monitoramos desenvolvimentos em toda a sua pegada, de iniciativas da OCDE a mudanças de política de países individuais.',
+          desc2: 'Nossa rede estabelecida também fornece acesso a fluxo de negócios proprietário em fusões e aquisições, imobiliário internacional e crédito privado, muitas vezes antes de as oportunidades chegarem ao mercado mais amplo. Contrapartes pré-validadas em segmentos de alta barreira.',
           includes_title: 'Serviços Incluem:',
           items: [
             'Monitoramento de mudanças de tratados e regulamentações',
@@ -756,8 +759,8 @@ export const translations = {
       mission: {
         title: 'Nossa Missão',
         subtitle: 'A camada de coordenação internacional para famílias multigeracionais.',
-        p1: 'A Ipanema Institutional foi fundada no princípio de que family offices sofisticados exigem mais do que conselhos—eles exigem um sistema operacional robusto. Servimos como a camada de coordenação internacional entre seus consultores domésticos e administradores offshore, garantindo execução unificada em todas as jurisdições.',
-        p2: 'Não substituímos seu conselho de confiança. Nós nos integramos a eles—coordenando consultores fiscais, advogados e prestadores de serviços através das fronteiras para garantir que nada caia nas lacunas jurisdicionais. Ao unir estruturação jurídica, gerenciamento de compliance e execução transfronteiriça, fornecemos a certeza operacional que famílias multijurisdicionais exigem.'
+        p1: 'A Ipanema Institutional foi fundada no princípio de que family offices sofisticados exigem mais do que conselhos, eles exigem um sistema operacional robusto. Servimos como a camada de coordenação internacional entre seus consultores domésticos e administradores offshore, garantindo execução unificada em todas as jurisdições.',
+        p2: 'Não substituímos seu conselho de confiança. Nós nos integramos a eles, coordenando consultores fiscais, advogados e prestadores de serviços através das fronteiras para garantir que nada caia nas lacunas jurisdicionais. Ao unir estruturação jurídica, gerenciamento de compliance e execução transfronteiriça, fornecemos a certeza operacional que famílias multijurisdicionais exigem.'
       },
       values: {
         title: 'Nossos Valores',
@@ -766,17 +769,17 @@ export const translations = {
           { title: 'Coordenação, Não Substituição', desc: 'Nós nos integramos com sua equipe de consultoria existente em vez de competir com eles. Seu conselho doméstico permanece seu parceiro estratégico; nós lidamos com a execução transfronteiriça.' },
           { title: 'Discrição Institucional', desc: 'Famílias multigeracionais exigem confidencialidade absoluta. Operamos com a discrição esperada de fiduciários institucionais, nunca como consultores transacionais.' },
           { title: 'Compliance Proativo', desc: 'Não esperamos por problemas. Nossos sistemas monitoram mudanças regulatórias em suas jurisdições, atualizando estruturas antes que surjam problemas.' },
-          { title: 'Perspectiva Geracional', desc: 'A otimização de curto prazo destrói a riqueza de longo prazo. Estruturamos por décadas, não trimestres—garantindo que sua infraestrutura sirva a várias gerações.' }
+          { title: 'Perspectiva Geracional', desc: 'A otimização de curto prazo destrói a riqueza de longo prazo. Estruturamos por décadas, não trimestres, garantindo que sua infraestrutura sirva a várias gerações.' }
         ]
       },
       diff: {
         title: 'O Que Nos Diferencia',
         subtitle: 'Impulsionando o crescimento através de soluções confiáveis, orientação especializada e suporte personalizado.',
         items: [
-          { title: 'Coordenação Multijurisdicional', desc: 'Conhecimento profundo de como as estruturas interagem através das fronteiras. Não entendemos apenas jurisdições individuais—entendemos as lacunas entre elas onde ocorrem falhas de compliance.' },
+          { title: 'Coordenação Multijurisdicional', desc: 'Conhecimento profundo de como as estruturas interagem através das fronteiras. Não entendemos apenas jurisdições individuais, entendemos as lacunas entre elas onde ocorrem falhas de compliance.' },
           { title: 'Integração de Consultores', desc: 'Colaboração perfeita com seu consultor fiscal nos EUA, administradores offshore e equipes jurídicas locais. Falamos a língua deles e coordenamos a execução sem substituir relacionamentos.' },
           { title: 'Infraestrutura Institucional', desc: 'Os sistemas operacionais que family offices precisam: relatórios consolidados, calendários de compliance, monitoramento contínuo da estrutura e coordenação de negócios através das jurisdições.' },
-          { title: 'Acesso a Negócios Estratégicos', desc: 'Fluxo de negócios proprietário em fusões e aquisições, imobiliário internacional e crédito privado de nossa rede—oportunidades pré-validadas em segmentos de alta barreira.' },
+          { title: 'Acesso a Negócios Estratégicos', desc: 'Fluxo de negócios proprietário em fusões e aquisições, imobiliário internacional e crédito privado de nossa rede, oportunidades pré-validadas em segmentos de alta barreira.' },
           { title: 'Discrição Absoluta', desc: 'Em um mundo hiperconectado, a privacidade é o luxo supremo. Projetamos estruturas que protegem sua identidade e seus dados por padrão.' },
           { title: 'Arquitetura de Compliance', desc: 'Soluções claras que atendem aos padrões da indústria em todas as jurisdições. Construímos estruturas que resistem ao escrutínio hoje e se adaptam à medida que as regulamentações evoluem.' }
         ]

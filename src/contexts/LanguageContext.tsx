@@ -1,8 +1,7 @@
-
-import React, { createContext, useState, useContext, ReactNode } from 'react';
+import React, { createContext, useContext, ReactNode } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { translations } from '@/utils/translations';
-
-type Language = 'en' | 'pt' | 'es';
+import { languages, defaultLanguage, type Language } from '@/lib/languages';
 
 interface LanguageContextType {
   language: Language;
@@ -12,8 +11,17 @@ interface LanguageContextType {
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
-export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
-  const [language, setLanguage] = useState<Language>('en');
+export const LanguageProvider: React.FC<{ lang: Language; children: ReactNode }> = ({ lang, children }) => {
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const language: Language = (languages as readonly string[]).includes(lang) ? lang : defaultLanguage;
+
+  // Language is URL-driven: switching locale navigates to the same path under the new prefix.
+  const setLanguage = (newLang: Language) => {
+    const rest = location.pathname.replace(/^\/(en|pt|es)(?=\/|$)/, '');
+    navigate(`/${newLang}${rest || ''}${location.hash || ''}`);
+  };
 
   const t = (key: string): any => {
     const keys = key.split('.');
@@ -26,11 +34,11 @@ export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }
         // Fallback to English if translation is missing
         let fallback: any = translations['en'];
         for (const fk of keys) {
-            if (fallback && fallback[fk] !== undefined) {
-                fallback = fallback[fk];
-            } else {
-                return key;
-            }
+          if (fallback && fallback[fk] !== undefined) {
+            fallback = fallback[fk];
+          } else {
+            return key;
+          }
         }
         return fallback;
       }
